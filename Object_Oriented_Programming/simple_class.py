@@ -8,4 +8,5 @@ class statement:
     say = "The owner of this github is Johnson Masino"
 print(statement().say)
 print(statement.say)
+print(statement.__dict__)
 print("\nCode developed by Masino")
