@@ -4,6 +4,7 @@ This code is a simple empty class
 """
 
 class Masino:
-    def MsCom(self):
-        pass
+    pass
+print(type(Masino))
+#print(type(MasCom))
 print("\nCode developed by Masino")    
