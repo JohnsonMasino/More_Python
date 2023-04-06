@@ -11,5 +11,5 @@ class Masino:
     def greetings(self):
         print("Hello everyone, I am ", self.name)
 
-Masino("Johnson").greetings()
+Masino("Obinna").greetings()
 print("\nCode developed by Masino")
