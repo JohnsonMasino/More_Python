@@ -4,5 +4,5 @@
 This function multiplies two numbers
 """
 
-def ml(a, b):
-    return a * b
+def ml(m, b):
+    return m * b
