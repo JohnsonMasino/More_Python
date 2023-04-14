@@ -11,5 +11,6 @@ def Openn():
     print(m.closed)
     print()
     print(read)
+    print(m.closed)
 Openn()
 print("\nCode developed by Masino")
