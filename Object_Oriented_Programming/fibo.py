@@ -17,7 +17,7 @@ def fib1(n):
     while a < n:
         result.append(a)
         a, b = b, a + b
-    print(result)
-fib(5)
-fib1(3)
-print("\nCode developed by Masino")
+    return result
+#fib(5)
+#fib1(3)
+#print("\nCode developed by Masino")
