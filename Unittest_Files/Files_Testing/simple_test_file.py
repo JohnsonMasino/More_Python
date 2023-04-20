@@ -26,4 +26,4 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue(done == ["johnson", "Masino"])
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main()-v
