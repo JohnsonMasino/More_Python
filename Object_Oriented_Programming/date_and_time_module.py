@@ -11,6 +11,8 @@ def DateTime():
     print(dir(dt))
     print()
     print(dt.__name__)
+    print()
+    print(dir(dt.date.today()))
 
 DateTime()
 print("\nCode developed by Masino")
