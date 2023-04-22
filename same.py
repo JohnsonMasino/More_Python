@@ -9,7 +9,7 @@ import one
 import two
 
 def Checking(arg1, arg2):
-    if arg1 is arg2:
+    if arg1 == arg2:
         print("Same Content")
     else:
         print("Not same content")
