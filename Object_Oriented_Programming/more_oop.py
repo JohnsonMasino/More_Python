@@ -23,10 +23,10 @@ class Second(First):
         print("False")
 #    print("Showing from second class")
 
-print("Accessing from First class:")
+print("Accessing this line from First class:")
 First("Obinna", 23).disp()
 First("", "").answer()
-print("\nAccessing from class Second:")
+print("\nAccessing this line from class Second:")
 Second("Chineche", 19).disp()
 Second("", "").answer_2()
 print("\nCode developed by Masino")
