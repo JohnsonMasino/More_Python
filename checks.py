@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
+name0 = ("adams", "pigs")
 name1 = ("adams", "pigs")
-name2 = ("adams", "pigs")
 def Checks(a, b):
     if a is b:
         print("Same")
     else:
         print("Not same")
-Checks(name1, name2)
+Checks(name0, name1)
 print("\nCode by Masino")
