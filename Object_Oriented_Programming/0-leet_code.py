@@ -11,16 +11,15 @@ class Solution:
         n = int(input("Please enter a number here: "))
         num = []
         for i in range(1, n + 1):
-#            cnt = cnt + 1
             if i % 3 == 0 and i % 5 == 0:
-                print("FizzBuzz")
+                num.append("FizzBuzz")
             elif i % 5 == 0:
-                print("Buzz")
+                num.append("Buzz")
             elif i % 3 == 0:
-                print("Fizz")
+                num.append("Fizz")
             else:
-                print(i)
-#        print(num.append("Me"))
+                num.append(i)
+        print(num)
 
 Solution.fizzBuzz()
 print("\nCode developed by Masino")
