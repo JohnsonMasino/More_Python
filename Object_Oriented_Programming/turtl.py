@@ -19,23 +19,23 @@ class Simple_Turtle_Console(cmd.Cmd):
     #____________________________________These are some Basic Turtle Commands______________________________________
     def do_forward(self, arg):
         'This subpackge moves the turtle console forward to the specified number of times. Example is "FORWARD 60"'
-        forward(*parse(arg))
+        #forward(*parse(arg))
 
     def do_home(self, arg):
         'This subpackage takes the turtle console to the home page. Example is "HOME"'
-        home(*parse(arg))
+        #home(*parse(arg))
 
     def do_right(self, arg):
         'This subpackage turns the turtle console clockwise to a specified time. Example is "RIGHT 55"'
-        right(*parse(arg))
+        #right(*parse(arg))
 
     def do_goto(self, arg):
         'This subpackage takes the turtle console to the specified path'
-        goto(*parse(arg))
+        #goto(*parse(arg))
 
     def do_left(self, arg):
         'This subpackage turns the turtle console anti-clockwise to a specified time. Example is "LEFT 75"'
-        left(*parse(arg))
+        #left(*parse(arg))
 
 
     #______________________________________These are some playback/recording_____________________________________
