@@ -11,13 +11,14 @@ class TurtleConsole(cmd.Cmd):
     """defines the main class"""
     
     def do_greet(self, arg):
-        #'This subpackage prints a greeting message'
-        #greet(*parse(arg))
-        print("Hi there!\nHow is it going with you?")
+        if arg:
+            print(f"Hi there {arg}!\nHow is it going with you?")
+        else:
+            print("Heloo")
 
     def do_EOF(self, arg):
             return True
 
 if __name__ == "__main__":
     TurtleConsole().cmdloop()
-print("\nConsole developed by Masino")
+print("\nConsol developed by Masino")
