@@ -8,4 +8,9 @@ class Testing(unittest.TestCase):
         """defines the true test funtion"""
         self.assertTrue(True)
 
+    def test_SysErr(self):
+        """runs a system error"""
+        with self.assertRaises(SystemError):
+            raise SystemError
+
 unittest.main()
