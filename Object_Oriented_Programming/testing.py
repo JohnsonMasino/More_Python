@@ -13,4 +13,8 @@ class Testing(unittest.TestCase):
         with self.assertRaises(SystemError):
             raise SystemError
 
+    def test_More(self):
+        """runs a test for an expression"""
+        assert "Hello" == "Hello"
+
 unittest.main()
