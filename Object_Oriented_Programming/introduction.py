@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-This code creates a class and an object of self.
+This code creates a class and it's object of self.
 """
 
 class Masino:
