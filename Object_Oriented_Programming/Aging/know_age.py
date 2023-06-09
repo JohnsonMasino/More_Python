@@ -11,7 +11,12 @@ def Say_age():
     name = input("Welcome to KNOW AGE!\nWhat is your name please? ")
     year = int(input(f"Hi {name}!\nTell us the year you were born please... "))
     age = ex(year)
-    print(f"{name}! your age as of 2023 is: {age}\nThank you!!!")
+    try:
+        print(f"{name}! your age as of 2023 is: {age}\nThank you!!!")
+    except Exception as e:
+        print("There's an exception error detected")
+    finally:
+        print("Code working fine")
 
 if __name__ == "__main__":
     Say_age()
