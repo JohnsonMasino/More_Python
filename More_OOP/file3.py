@@ -24,7 +24,7 @@ class Turtle(cmd.Cmd):
 
     def do_say_date(self, line):
         'prints the date of today'
-        print(dt.now())
+        print(f"Today is: {dt.now()}")
 
 if __name__ == "__main__":
     Turtle().cmdloop()
