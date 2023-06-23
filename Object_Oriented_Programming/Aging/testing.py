@@ -2,9 +2,11 @@
 
 def Dating():
     """defines the date funtion"""
-    from datetime import datetime as dt
+    import datetime as dt
 
     print(dir(dt))
+    print(dir(dt.datetime))
+    print(dir(dt.datetime.now))
 
 if __name__ == "__main__":
     Dating()
