@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 import cmd
+
 class Turtle_Console(cmd.Cmd):
     """defines the class of the module"""
     #import turtle
