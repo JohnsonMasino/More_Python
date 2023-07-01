@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def Nums():
+def Nums(*num):
     """defines the class of the module"""
     nums = input("Enter number here to detect the maximum number: ")
     nums = nums.split()
@@ -20,5 +20,5 @@ def Nums():
         print("Program execution completed...")
 
 if __name__ == "__main__":
-    Nums()
+    Nums(2, 3, 6, 9, 4, 6, 3)
 print("\nCode developed by Masino")
