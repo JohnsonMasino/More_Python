@@ -12,6 +12,7 @@ def Getting():
         name = requests.get("https://www.google.com", params="container")
         print(name.text)
         print(name.encoding)
+        print(name.content)
     except Exception as m:
         print(str(m))
     finally:
