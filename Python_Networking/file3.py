@@ -12,7 +12,7 @@ def Google():
         print(res.code)
         data = res.read()
         print(len(data))
-        print(data)
+        print(data.status_code)
     except Exception as m:
         print(str(m))
     finally:
