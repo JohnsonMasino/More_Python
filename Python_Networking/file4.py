@@ -11,6 +11,7 @@ def Getting():
         container = {"Name": "Kings", "Complexion": "Dark", "Age": "17", "Net Worth": "USD10m"}
         name = requests.get("https://www.google.com", params="container")
         print(name.text)
+        print(name.encoding)
     except Exception as m:
         print(str(m))
     finally:
