@@ -8,7 +8,7 @@ def Posting():
     """defines the post request function"""
 
     try:
-        box = {"Name": "Masino", "Net": "USD200m", "Age": 39 }
+        box = {"Name": "Masino", "Net": "USD300m", "Age": 39 }
         name = requests.post("http://httpbin.org/post", data=box)
         print(name.text)
     except Exception as e:
