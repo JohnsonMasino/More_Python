@@ -18,6 +18,8 @@ def Getting():
         print(resp.length)
     except Exception as e:
         print(str(e))
+    finally:
+        print("Code execution finished")
 
 if __name__ == "__main__":
     Getting()
